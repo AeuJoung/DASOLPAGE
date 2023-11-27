@@ -1,0 +1,65 @@
+
+body {
+    padding-top: 64px;
+}
+
+.innerbox .contents {
+    width:800px;
+    margin: 0 auto 20px;
+}
+
+.innerbox .contents .title {
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    margin: 40px 0px 20px;
+}
+
+.innerbox .contents .title_tag {
+    font-size: 15px;
+    font-weight: bold;
+    color:gray;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.innerbox .contents .codeOutBox .codeLink {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: black;
+    line-height: 60px;
+}
+.codeLink a { color : white;}
+.codeLink:hover a { color : mediumaquamarine;}
+
+.innerbox .contents .codeOutBox ul {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.innerbox .contents .codeOutBox ul li.codeList {
+    display:inline-block;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    padding:5px 10px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color: black;
+}
+.codeList a { color: white; }
+.codeList.click a { color : mediumspringgreen;}
+.codeList a:hover { color: mediumspringgreen }
+
+.innerbox .contents .codeOutBox .codeArea { display: none; }
+.innerbox .contents .codeOutBox .codeArea.select { display: block; }
+
+.innerbox .contents .codeOutBox .codeArea .gist .gist-meta a {
+    display: inline;
+}
